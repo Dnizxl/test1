@@ -12,7 +12,7 @@ margin: 0;
 
 nav {
  
-    background-color: #04065e;
+    background-color:#023047;
     color: rgb(232, 232, 232);
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ margin-left: auto;
 
 #container{
   min-height: 300px;
-  background-color: #80a0ec;
+  background-color: #8ECAE6;
   display: flex;
  gap: 20px;
 
@@ -72,11 +72,13 @@ div > .textbox{
 #container2{
 
 display: flex;
+flex-direction: column;
 
 
 min-height: 300px;
- background-color: #04065e;
+ background-color:#023047;
 
+ gap: 20px;
 
 }
 
@@ -84,11 +86,99 @@ min-height: 300px;
 
 
 
-  float: right;
+  float: left;
   padding: 6px;
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 30px;
   border: none;
   font-size: 17px;
+}
+
+
+#container3{
+
+
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid red;
+    min-height: 100px;
+
+
+}
+
+.service{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+background-color: #FFB703;
+border: 1px solid red;
+
+gap: 20px;
+
+}
+
+.list{
+
+
+    border: 1px solid red;
+    display: flex;
+
+margin: 30px;
+    padding: 20px;
+}
+
+
+#container4{
+border: 1px solid red;
+
+ display: flex;
+
+ flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 600px;
+min-width: 400px;
+}
+
+.text1{
+    
+align-items: center;
+justify-content: center;
+
+font-size: 50px;
+margin-bottom: 80px;
+}
+
+.text2{
+    
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 30px;
+margin-bottom: 50px;
+padding-left: 30px;
+}
+
+.subcontainer4{
+
+
+display: flex;
+ 
+    border: 1px solid red;
+   flex-grow: 1;
+gap: 20px;
+min-width: 200px;
+}
+      
+
+
+.ibucontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+ flex-direction: row;
+ flex-grow: 1;
+gap: 40px;
+
 }
